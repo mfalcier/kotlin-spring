@@ -1,8 +1,8 @@
-FROM        maven:3.5-jdk-8-alpine
+FROM maven:3.5-jdk-8-alpine
 
 USER root
 
-COPY        ./code/ /home
-WORKDIR     /home
+COPY ./code/ /home
+WORKDIR /home
 
-RUN         mvn clean install
+RUN mvn clean install
