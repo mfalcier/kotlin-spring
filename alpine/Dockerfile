@@ -1,5 +1,4 @@
-3.5-jdk-8-alpine
-MAINTAINER  Edge Team <it-edge@pixartprinting.com>
+FROM        maven:3.5-jdk-8-alpine
 
 USER root
 
